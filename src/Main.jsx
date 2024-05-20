@@ -4,7 +4,7 @@ import { useState, useEffect} from 'react';
 function Main() {
 
   const delay = 200;
-  const text = "I am ABCD"
+  const text = "I am Lego Man"
 
 
   const [currentText, setCurrentText] = useState("");
@@ -16,7 +16,15 @@ function Main() {
         setCurrentText(prevText => prevText + text[currentIndex]);
         setCurrentIndex(prevIndex => prevIndex + 1);
       }, delay);
-  
+
+      return () => clearTimeout(timeout);
+    } else {
+      // Metin tamamlandıktan sonra sıfırlayarak yeniden başlat
+      const timeout = setTimeout(() => {
+        setCurrentText(' ');
+        setCurrentIndex(0);
+      }, 1000);
+
       return () => clearTimeout(timeout);
     }
   }, [currentIndex, delay, text]);

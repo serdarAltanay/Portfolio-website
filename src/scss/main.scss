@@ -29,4 +29,16 @@
             font-size: calc(.9rem + 0.3vw) !important;
         }
     }
+    #typing-text{
+        height: 100px;
+    }
+}
+
+#about{
+    .about-img{
+        width: 250px;
+    }
+    .about-content{
+        flex-direction: column;
+    }
 }
