@@ -21,7 +21,7 @@ function Main() {
     } else {
       // Metin tamamlandıktan sonra sıfırlayarak yeniden başlat
       const timeout = setTimeout(() => {
-        setCurrentText(' ');
+        setCurrentText('');
         setCurrentIndex(0);
       }, 1000);
 

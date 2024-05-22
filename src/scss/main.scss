@@ -1,5 +1,5 @@
 .header {
-    background: #151515 url('../images/intro-bg.jpg') no-repeat center center;
+    background: #151515 url("./intro-bg.jpg") no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     .social {
@@ -41,4 +41,65 @@
     .about-content{
         flex-direction: column;
     }
+}
+
+.portfolio{
+    .flex-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .portfolio-img{
+        flex: 1;
+        min-width: 300px;
+        max-width: 500px; 
+        margin: 15px;
+        cursor: pointer;   
+    }
+    
+    
+}
+#frame{
+    button {
+        position: absolute;
+        top: 10%;
+        left: 3%;
+        z-index: 100;
+        background-color: transparent;
+        border: none;
+        img{
+            color: black;
+        }
+    }
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    z-index: 8;
+    &::after{
+        content: ' ';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height:  100%;
+        background-color: rgba(0,0,0,0.6);
+       
+    }
+    #big-image{
+
+        position: fixed; 
+        top: 10%; 
+        left: 8%;
+        width: 85%; 
+        height: auto; 
+        z-index: 10;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+         
+    }
+
 }
