@@ -21,7 +21,7 @@ function Styleshout() {
             </div>
         </div>
     </section>
-    <section className='services text-bg-dark py-5 position-relative '>
+    <section className='services text-bg-dark py-5 position-relative'>
         <div className="container">
             <div className="text-center mb-5">
                 <h1 className='text-uppercase fw-bold text-primary'>
