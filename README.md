@@ -1,3 +1,8 @@
+# Portfolio Website :information_desk_person:
+
+This is a basic personal portfolio website that I make with using React and Bootstrap sass.
+Also this website is a part of the Brad Traversy's bootstrap course but ı rebuild it with using react because ı wanted to learn how bootstrap works wit react.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
