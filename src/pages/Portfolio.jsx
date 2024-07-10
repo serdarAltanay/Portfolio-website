@@ -49,8 +49,9 @@ function Portfolio() {
                     <div id='frame'>
                         <button className="close-button btn-lg" onClick={closeImage}><img src="/images/close.png" alt="Close"></img></button>
                         <div id="big-image">
-                            <img src={imageSrc} alt="Big Image" />
+                            <img src={imageSrc} alt="project" />
                         </div>
+                        <p className='project-title'>Project Title</p>
                     </div>
                 }
             </div>

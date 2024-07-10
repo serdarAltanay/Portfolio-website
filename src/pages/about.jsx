@@ -14,12 +14,12 @@ function About() {
             </div>
             <div className="about-content d-flex gap-5 align-items-center h-100 mt-4">
                 <div className="row">
-                    <div className="col-4">
+                    <div className="col-md-4">
                         <div className='image-container about-img'>
                             <img src="https://randomuser.me/api/portraits/lego/7.jpg" alt="" className='rounded rounded-circle img-fluid' />
                         </div>
                     </div>
-                    <div className="col-8">
+                    <div className="col-md-8">
                         <p className="lead mt-5 ms-3">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iusto in dolorem quasi dolor quod nisi debitis ad nam a commodi perspiciatis odit molestias cum eaque facere, fuga quia quibusdam ex porro. Ad dolorem aperiam illo quae aliquam. Accusantium sapiente sequi rerum atque nihil eligendi deserunt a architecto dolor sint.
                         </p>
@@ -50,15 +50,15 @@ function About() {
                         </li>
                         <li className='list-group-item mb-3'>
                             <h5 className='text-transform'>
-                                <i className='fas fa-user text-primary me-3'></i>Full Name:
+                                <i className='fas fa-envelope text-primary me-3'></i>Website:
                             </h5>
-                            <p>Lego Man</p>
+                            <p>legoman.com</p>
                         </li>
                         <li className='list-group-item mb-3'>
                             <h5 className='text-transform'>
                                 <i className='fas fa-building text-primary me-3'></i>Current Position:
                             </h5>
-                            <p>Artist</p>
+                            <p>Web Artist</p>
                         </li>
                     </ul>
                 </div>

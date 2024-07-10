@@ -6,7 +6,6 @@ function Main() {
   const delay = 200;
   const text = "I am Lego Man"
 
-
   const [currentText, setCurrentText] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
  
@@ -19,7 +18,6 @@ function Main() {
 
       return () => clearTimeout(timeout);
     } else {
-      // Metin tamamlandıktan sonra sıfırlayarak yeniden başlat
       const timeout = setTimeout(() => {
         setCurrentText('');
         setCurrentIndex(0);
@@ -28,7 +26,6 @@ function Main() {
       return () => clearTimeout(timeout);
     }
   }, [currentIndex, delay, text]);
-
 
   return (
     <header className='header vh-100 position-relative text-center'>
